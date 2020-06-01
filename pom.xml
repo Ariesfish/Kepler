@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>xyz.ariesfish</groupId>
-    <artifactId>IppInfo</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>IppUtil</artifactId>
+    <version>1.0</version>
     <packaging>jar</packaging>
 
     <dependencies>
@@ -40,7 +40,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>xyz.ariesfish.IppInfo</mainClass>
+                            <mainClass>xyz.ariesfish.IppUtil</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

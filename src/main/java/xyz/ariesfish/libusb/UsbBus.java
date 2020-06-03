@@ -8,5 +8,10 @@ public class UsbBus extends Structure {
 
     }
 
-
+    public UsbBus.ByReference next;
+    public UsbBus.ByReference prev;
+    public byte[] dirname = new byte[LibUsbConstants.PATH_MAX+1];
+    public UsbDevice.ByReference devices;
+    public int location;
+    public UsbDevice.ByReference rootDevice;
 }

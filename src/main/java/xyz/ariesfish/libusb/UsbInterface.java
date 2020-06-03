@@ -7,5 +7,6 @@ public class UsbInterface extends Structure {
 
     }
 
-    public
+    public UsbInterfaceDescriptor.ByReference altSetting;
+    public int numAltSetting;
 }

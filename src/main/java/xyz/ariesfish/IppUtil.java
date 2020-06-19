@@ -77,9 +77,6 @@ public class IppUtil {
             System.err.println("\n" + e.getMessage());
             help();
         }
-
-
-        URI uri = URI.create("ipp://172.16.9.163:631/ipp/print");
     }
 
     private static void getPrinterInfo(URI uri, CommandLine command) throws IOException {

@@ -105,6 +105,7 @@ public class IppUtil {
                 Types.copiesSupported.getName(),
                 Types.mediaDefault.getName(),
                 Types.mediaSupported.getName(),
+                Types.mediaColDatabase.getName(),
                 Types.sidesDefault.getName(),
                 Types.sidesSupported.getName(),
                 Types.numberUpSupported.getName(),

@@ -97,6 +97,7 @@ public class IppUtil {
                 Types.printerAlert.getName(),
                 Types.printerAlertDescription.getName(),
                 Types.printColorModeSupported.getName(),
+                Types.colorSupported.getName(),
                 Types.pagesPerMinute.getName(),
                 Types.pagesPerMinuteColor.getName(),
                 Types.copiesSupported.getName(),
